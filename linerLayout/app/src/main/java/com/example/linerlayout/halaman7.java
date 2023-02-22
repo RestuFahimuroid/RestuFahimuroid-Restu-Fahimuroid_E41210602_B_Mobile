@@ -1,6 +1,7 @@
 package com.example.linerlayout;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
 
 public class halaman7 extends AppCompatActivity {

@@ -19,16 +19,4 @@
         android:text="Tombol"
         android:textColor="#fff"
         android:textSize="20sp"/>
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="191dp"
-        android:layout_height="60dp"
-        android:layout_alignParentEnd="true"
-        android:layout_gravity="right"
-        android:onClick="pindah"
-        android:text="Ke Halaman 5"
-        tools:ignore="MissingConstraints,RtlHardcoded"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp" />
 </FrameLayout>
