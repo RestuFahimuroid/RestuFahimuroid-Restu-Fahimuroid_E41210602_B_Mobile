@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.minggu3'
+    namespace 'com.example.minggu5'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.minggu3"
+        applicationId "com.example.minggu5"
         minSdk 24
         targetSdk 33
         versionCode 1
@@ -36,8 +36,4 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
-
-    //manual add depedencies
-    implementation 'androidx.recyclerview:recyclerview:1.2.1'
-    implementation 'androidx.cardview:cardview:1.0.0'
 }

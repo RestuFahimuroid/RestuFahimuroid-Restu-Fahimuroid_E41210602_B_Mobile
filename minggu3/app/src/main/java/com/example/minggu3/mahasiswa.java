@@ -26,7 +26,6 @@ public class mahasiswa {
     public String getNohp(){
         return nohp;
     }
-    public void setNohp(String nohp){
-        this.nohp = nohp;
+    public void setNohp(String nohp){this.nohp = nohp;
     }
 }
