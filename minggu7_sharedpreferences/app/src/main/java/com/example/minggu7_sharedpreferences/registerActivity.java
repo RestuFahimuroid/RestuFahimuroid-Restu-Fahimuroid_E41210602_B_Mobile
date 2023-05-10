@@ -10,9 +10,6 @@ import android.widget.Button;
 import android.widget.EditText;
 
 public class registerActivity extends AppCompatActivity {
-
-
-
     EditText username, pass, pass2;
     Button btn;
 
@@ -20,13 +17,12 @@ public class registerActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
-
         username = findViewById(R.id.et_emailSignUp);
         pass = findViewById(R.id.et_passwordSignUp);
         pass2 = findViewById(R.id.et_passwordSignUp2);
         btn = findViewById(R.id.btn_signupSignUp);
         btn.setOnClickListener(v -> {
-            if(pass.getText().toString().equals(pass2.getText().toString())){
+            if (pass.getText().toString().equals(pass2.getText().toString())) {
                 SharedPreferences sp = getSharedPreferences("daftar", Context.MODE_PRIVATE);
                 SharedPreferences.Editor editor = sp.edit();
                 editor.putString("username", username.getText().toString());
@@ -37,6 +33,5 @@ public class registerActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
     }
 }

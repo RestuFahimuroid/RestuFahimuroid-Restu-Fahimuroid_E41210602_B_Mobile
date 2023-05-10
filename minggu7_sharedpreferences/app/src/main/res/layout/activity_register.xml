@@ -44,7 +44,7 @@
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="50dp"
         android:id="@+id/et_passwordSignUp2"
         android:layout_marginBottom="30dp"
         android:layout_below="@id/et_passwordSignUp"
